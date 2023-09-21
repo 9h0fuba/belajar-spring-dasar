@@ -1,4 +1,4 @@
-package ghofuba.belajarspringdasar;
+package ghofuba.belajarspringdasar.configuration;
 
 import ghofuba.belajarspringdasar.data.Foo;
 import org.springframework.context.annotation.Bean;
