@@ -1,6 +1,7 @@
 package ghofuba.belajarspringdasar;
 
 import ghofuba.belajarspringdasar.data.Connection;
+import ghofuba.belajarspringdasar.data.Server;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -26,6 +27,11 @@ public class LifeCycleTest {
     void testConnection(){
         Connection connection = applicationContext.getBean(Connection.class);
 
+    }
+
+    @Test
+    void testServer(){
+        applicationContext.getBean(Server.class);
     }
 }
 
